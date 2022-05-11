@@ -6,30 +6,28 @@
     text-decoration: none;
 }
 
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 body{
-    /* clear:both; */
     background-color: #E5E5E5;
     background-image: url(../img/Rectangle\ 1.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-    padding: 100px
+    padding: 80px
 }
 
 header{
     width: 100%;
-    height: 140px;
-}
-
-header ul li{
-    height: 150px;
-    float:left;
-    margin-left: 100px
 }
 
 header ul{
-    margin-left: 40%;
-    /* margin-top: 80px; */
+    width: 650px;
+    margin-left: 50%;
 }
 
 header ul li a{
@@ -49,11 +47,11 @@ header ul li a:hover{
 
 
 .place{
-    clear: both;
     width: 500px;
     height: 200px;
     margin-left: 55%;
     text-align: center;
+    margin-top: 120px;
 }
 
 @keyframes ball-move{
@@ -65,7 +63,6 @@ header ul li a:hover{
 }
 
 .ball{
-    clear: both;
     width: 32px;
     height: 32px;
     border-radius: 50%;
@@ -87,7 +84,7 @@ header ul li a:hover{
 .advice{
     width: 1050px;
     height: 500px;
-    margin-top: 250px;
+    margin-top: 150px;
     margin-left: 450px;
 }
 
