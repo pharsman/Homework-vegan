@@ -153,8 +153,15 @@ header ul li a:hover{
 }
 
 .meotxe{
+    text-align: left;
     margin-top: 155px;
 }
+.meotxe p{
+    margin-top: -60px;
+    margin-left: 100px;
+}
+
+
 
 .line{
     margin:400px;
