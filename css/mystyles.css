@@ -8,26 +8,32 @@
 
 .flex{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
 }
 
 body{
     background-color: #E5E5E5;
     background-image: url(../img/Rectangle\ 1.png);
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
-    background-position: top;
-    padding: 80px
+    
 }
 
 header{
     width: 100%;
+    padding:60px;
+    /* background-color: #000000; */
 }
 
 header ul{
-    width: 650px;
-    margin-left: 50%;
+    width: 100%;
+    
+    /* background-color: #ff0000; */
+}
+
+header ul li{
+    margin-right: 7%;
 }
 
 header ul li a{
@@ -44,10 +50,8 @@ header ul li a:hover{
     cursor: pointer;
 }
 
-
-
 .place{
-    width: 500px;
+    width: 29.5%;
     height: 200px;
     margin-left: 55%;
     text-align: center;
@@ -56,13 +60,14 @@ header ul li a:hover{
 
 @keyframes ball-move{
     1%{top : 0px; left: 0px}
-    25%{top: 0px; left: 468px}
-    50%{top:168px; left:468px}
-    75%{top: 168px; left: 0px}
+    25%{top: 0px; left: 94%}
+    50%{top:84%; left:94%}
+    75%{top:84%; left: 0px}
     100%{top : 0px; left: 0px}
 }
 
 .ball{
+    
     width: 32px;
     height: 32px;
     border-radius: 50%;
@@ -82,10 +87,10 @@ header ul li a:hover{
 }
 
 .advice{
-    width: 1050px;
+    width: 64%;
     height: 500px;
-    margin-top: 150px;
-    margin-left: 450px;
+    margin-top: 170px;
+    margin-left: 500px;
 }
 
 .rcheva {
@@ -165,9 +170,9 @@ header ul li a:hover{
 
 .line{
     margin:400px;
-    width: 600px;
+    width:43%;
     border: 1px solid #C4C4C4;
     transform: rotate(90deg);
-    margin-left: 150px;
-    margin-top:-140px;
+    margin-left: 218px;
+    margin-top:-150px;
 }
