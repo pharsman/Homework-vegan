@@ -22,11 +22,12 @@ body{
 
 header{
     width: 100%;
-    padding:60px;
+    padding:50px;
 }
 
 header ul{
     width: 100%;
+    
 }
 
 header ul li{
@@ -135,10 +136,10 @@ header ul li a:hover{
 .rcheva-mesame{
     width: 630px;
     height: 80px;
-    text-align: right;
+    text-align: left;
     position: relative;
     margin-left:450px;
-    margin-top:-165px;
+    margin-top:-185px;
 }
 
 .potoli-sami{
@@ -146,7 +147,7 @@ header ul li a:hover{
     height: 70px;
     background-color: #C4C4C4;
     border-radius:  35% 0 35% 0;
-    margin-top: -42px;
+    margin-top: -62px;
     transition: 0.5s;   
 }
 
@@ -155,13 +156,14 @@ header ul li a:hover{
 }
 
 .meotxe{
-    text-align: left;
-    margin-top: 155px;
+    margin-top: 200px;
 }
-.meotxe p{
+
+.rcheva-mesame p{
     margin-top: -60px;
     margin-left: 100px;
 }
+
 
 
 
@@ -260,4 +262,49 @@ header ul li a:hover{
         margin-top: -20px;
     }
 }
+
+@media only screen and (max-width: 708px) {
+    header ul li a{
+        padding: 20px;
+    }
+    .flex{
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    header ul{
+        margin-top: -45px;
+    }
+    header ul li{
+        
+        padding: 12px;
+        margin-top:30px
+    }
+    .deadline{
+        font-size: 20px;
+    }
+    .time{
+        font-size: 25px;
+    }
+    .place{
+        margin-left: 60%;
+        margin-top: -200px;
+    }
+    .rcheva{
+        width: 300px;
+        margin-top: 50px;
+    }
+    .rcheva p{
+        margin-left: 102px;
+    }
+    .rcheva-mesame{
+        width: 300px;
+        margin-top: 100px;
+    }
+
+    .meotxe p{
+        margin-top: -74px;
+    }
+
+}
+
 
