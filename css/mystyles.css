@@ -23,13 +23,10 @@ body{
 header{
     width: 100%;
     padding:60px;
-    /* background-color: #000000; */
 }
 
 header ul{
     width: 100%;
-    
-    /* background-color: #ff0000; */
 }
 
 header ul li{
@@ -176,3 +173,91 @@ header ul li a:hover{
     margin-left: 218px;
     margin-top:-150px;
 }
+
+@media only screen and (max-width: 1456px) {
+    .advice{
+        margin-left: 500px;
+        margin-top:80px;
+    }
+    .line{
+        display: none;
+    }
+    .place{
+        margin-top:50px;
+    }
+    .rcheva p{
+        margin-left: 80px
+    }
+    .potoli{
+        left: 0px;
+    }
+    .potoli-sami{
+        transform: rotate(90deg);
+    }
+    .rcheva-mesame{
+        margin-left: 0px;
+    }
+  }
+  @media only screen and (max-width: 1402px) {
+    .place{
+        margin-left: 45%;
+        margin-top:0px;
+    }
+    .advice{
+        margin-left: 440px;
+        margin-top:40px;
+    }
+}
+
+@media only screen and (max-width: 1240px) {
+    .flex{
+        justify-content: flex-start;
+    }
+
+    .place{
+        margin-left: 57%;
+        margin-top: -50px;
+    }
+    .advice{
+        margin-left: 400px;
+        margin-top:36px;
+    }
+}
+
+
+@media only screen and (max-width: 1160px) {
+    .place{
+        margin-left: 60%;
+        margin-top: -90px;
+    }
+    .advice{
+        margin-left: 400px;
+    }
+}
+
+ @media only screen and (max-width: 1130px) {
+    body{
+        background-image: none;
+        background-color: #E5E5E5;
+    }
+    .place{
+        margin-left: 65%;
+        margin-top: -50px;
+    }
+    .advice{
+        margin-left: 50px;
+        margin-top:20px;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    .ball{
+        display: none;
+    }
+
+    .place{
+        margin-left: 65%;
+        margin-top: -20px;
+    }
+}
+
